@@ -9,4 +9,13 @@ import { Component } from '@angular/core'; //allows type decorator of Component
 export class ServerComponent {
 //Component is essentially a TypeScript class
 
+    //local variables
+    serverId:number = 10
+    serverStatus:string = 'offline';
+
+    //defining a method in a component
+    getServerStatus(){
+       return this.serverStatus; 
+    }
+
 }

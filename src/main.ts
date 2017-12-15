@@ -10,3 +10,16 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+
+  /**
+   * DATABINDING:
+   * 
+   * String Interpolation: {{ data }}
+   * 
+   * Property Binding: [property]="data"
+   * 
+   * Event binding: (event)="expression"
+   * 
+   * Two-way-binding [(ngModel)]="data"
+   */
