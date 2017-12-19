@@ -8,7 +8,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
-  //Declare components
+  // Declare components
   declarations: [
     AppComponent,
     ServerComponent,
@@ -22,5 +22,5 @@ import { ServersComponent } from './servers/servers.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-//Module bundles components into 'packages' 
+// Module bundles components into 'packages' 
 export class AppModule { }
