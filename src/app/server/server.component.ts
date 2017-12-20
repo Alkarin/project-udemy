@@ -10,8 +10,8 @@ export class ServerComponent {
 // Component is essentially a TypeScript class
 
     // local variables
-    serverId:number = 10;
-    serverStatus:string = 'offline';
+    serverId: Number = 10;
+    serverStatus: String = 'offline';
 
     // defining a method in a component
     getServerStatus() {
